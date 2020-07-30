@@ -1,0 +1,16 @@
+html,body {
+    height:100vh;
+}
+#app {
+    height:100%;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}

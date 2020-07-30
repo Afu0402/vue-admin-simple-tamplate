@@ -1,0 +1,32 @@
+
+/*
+ 充值el-component的样式；
+*/
+.el-menu {
+    height:100%;
+}
+.el-dialog__body {
+    padding:0;
+}
+.el-dialog {
+    margin:auto;
+}
+.table-margin {
+    margin:2vh 0;
+}
+.el-menu--collapse {
+    .el-submenu {
+      &>.el-submenu__title {
+        &>span {
+          height: 0;
+          width: 0;
+          overflow: hidden;
+          visibility: hidden;
+          display: inline-block;
+        }
+      }
+    }
+    .el-submenu__icon-arrow {
+      display: none;
+    }
+  }
