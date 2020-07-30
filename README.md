@@ -1,4 +1,4 @@
-# vue-admin-simple-template
+# vue-admin-simple
 
 ## Project setup
 ```

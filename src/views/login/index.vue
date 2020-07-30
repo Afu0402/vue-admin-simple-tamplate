@@ -13,7 +13,7 @@
       </el-form-item>
 
       <el-form-item prop="password">
-        <el-input :key="passwordType" ref="password" v-model="loginForm.password" type="password" placeholder="密码" name="password" tabindex="2" auto-complete="on" @keyup.enter.native="handleLogin">
+        <el-input  ref="password" v-model="loginForm.password" type="password" placeholder="密码" name="password" tabindex="2" auto-complete="on" @keyup.enter.native="handleLogin">
           <i slot="prefix" class="el-icon-lock"></i>
         </el-input>
       </el-form-item>
